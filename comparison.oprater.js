@@ -5,12 +5,12 @@
 
 
 // thraple eqaul
-var a="9"
-var b="9"
-console.log("a----",typeof(a))
-console.log("b---",typeof(b))
+// var a="9"
+// var b="9"
+// console.log("a----",typeof(a))
+// console.log("b---",typeof(b))
 
-console.log(a===b)
+// console.log(a===b)
 
 // !equal (notEqual)
 // var a=9

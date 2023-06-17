@@ -283,3 +283,392 @@
 // if(age>=25){
 //    console.log("You can drink");
 // }
+
+
+// var i=0
+// while(i<=10){
+//     console.log(i)
+//     i=i+1
+// }
+
+// var num=10
+// var i=1
+// while(i<=num){
+//     console.log(i)
+//     i=i+1
+// }
+// do{
+//     console.log(i)
+//     i=i+1
+// }
+// while(i<=num)
+
+// var i=10
+// var num=0
+// while(i>=num){
+//     console.log(i)
+//     i=i-1
+// }
+// do{
+//     console.log(i)
+//     i=i-1
+// }
+// while(i>=num)
+
+// v i=1ar num=10
+// var
+// while(i<=num){
+//     if(i%2==0){
+//         console.log(i,"even")
+//     }
+//     else{
+//         console.log(i,"odd")
+//     }
+//     i=i+1
+// }
+
+// do{
+//     if(i%2==0){
+//         console.log(i,"even")
+//     }
+//     else{
+//         console.log(i,"odd")
+//     }
+//     i=i+1
+// }
+// while(i<=num)
+// var evenSum=0
+// var oddSum=0
+// while(i<=num){
+//     if(i%2==0){
+//         evenSum=evenSum+i
+//     }
+//     else{
+//         oddSum=oddSum+i
+//     }
+//     i=i+1
+// }
+// console.log("total of evensum",evenSum)
+// console.log("total of oddsum",oddSum)
+
+// do{
+//     if(i%2==0){
+//         evenSum=evenSum+i
+//     }
+//     else{
+//         oddSum=oddSum+i
+//     }
+//     i=i+1
+// }
+// while(i<=num)
+// console.log("total of evensum",evenSum)
+// console.log("total of oddsum",oddSum)
+
+
+// var i=10
+// var num=1
+// while(i>=num){
+//     if(i%2==0){
+//         console.log(i,"even")
+//     }
+//     else{
+//         console.log(i,"odd")
+//     }
+//     i=i-1
+// }
+
+// do{
+//     if(i%2==0){
+//         console.log(i,"even")
+//     }
+//     else{
+//         console.log(i,"odd")
+//     }
+//     i=i-1
+// }
+// while(i>=num)
+
+// var evensum=0
+// var oddsum=0
+// while(i>=num){
+//     if(i%2==0){
+//         evensum=evensum+i
+//     }
+//     else{
+//         oddsum=oddsum+i
+//     }
+//     i=i-1
+// }
+// console.log("total of evensum",evensum)
+// console.log("total of oddsum",oddsum)
+// do{
+//     if(i%2==0){
+//         evensum=evensum+i
+//     }
+//     else{
+//         oddsum=oddsum+i
+//     }
+//     i=i-1
+// }
+// while(i>=num)
+//     console.log("total of evensum",evensum)
+//     console.log("total of oddsum",oddsum)
+
+// var i=25
+// var num=1
+// var evencout=0
+// var oddcount=0
+// while(i>=num){
+//     if(i%2==0){
+//         evencout=evencout+1
+//     }
+//     else{
+//         oddcount=oddcount+1
+//     }
+//     i=i-1
+// }
+// console.log("total of evencount",evencout)
+// console.log("total of oddcount",oddcount)
+
+// do{
+//     if(i%2==0){
+//         evencout=evencout+1
+//     }
+//     else{
+//         oddcount=oddcount+1
+//     }
+//     i=i-1
+// }
+// while(i>=num)
+// console.log("total of evencount",evencout)
+// console.log("total of oddcount",oddcount)
+
+
+// var num=15
+// var i=1
+// var evensum=0
+// while(i<=num){
+//     if(i%2==0){
+//         evensum=evensum+i
+//     }
+//     i=i+1
+// }
+// console.log("total of evensum",evensum)
+
+
+// var readline =require("readline-sync")
+// var num=readline.questionInt("enter the any num======")
+// var i=1
+// while(i<=num){
+//     if(i%2==0){
+//         console.log(i,"even")
+//     }
+//     else{
+//         console.log(i,"odd")
+//     }
+//     i=i+1
+// }
+
+// do{
+//     if(i%2==0){
+//         console.log(i,"even")
+//     }
+//     else{
+//         console.log(i,"odd")
+//     }
+//     i=i+1
+// }
+// while(i<=num)
+
+// var readline =require("readline-sync")
+// var num=readline.questionInt("enter the any num========")
+// var i=10
+// var evensum=0
+// var oddsum=0
+// while(i<=num){
+//     if(i%2==0){
+//         evensum=evensum+i
+//     }
+//     else{
+//         oddsum=oddsum+i
+//     }
+//     i=i+1
+// }
+// console.log("total of evensum",evensum)
+// console.log("total of oddsum",oddsum)
+// do{
+//     if(i%2==0){
+//         evensum=evensum+i
+//     }
+//     else{
+//         oddsum=oddsum+i
+//     }
+//     i=i+1
+// }
+// while(i<=num)
+// console.log("total of evensum",evensum)
+// console.log("total of oddsum",oddsum)
+
+// while(i>=num){
+//     if(i%2==0){
+//         evensum=evensum+i
+//     }
+//     else{
+//         oddsum=oddsum+i
+//     }
+//     i=i-1
+// }
+// console.log("total of evensum",evensum)
+// console.log("total of oddsum",oddsum)
+
+
+// do{
+//     if(i%2==0){
+//         evensum=evensum+i
+//     }
+//     else{
+//         oddsum=oddsum+i
+//     }
+//     i=i-1
+// }
+// while(i>=num)
+// console.log("total of evensum",evensum)
+// console.log("total of oddsum",oddsum)
+
+// var num=10
+// var i=0
+// var sum=0
+// while(i<=num){
+//     sum=sum+i
+//     i=i+1
+// }
+// console.log("total of sum",sum)
+
+// do{
+//     sum=sum+i
+//     i=i+1
+// }
+// while(i<=num)
+// console.log("total of sum",sum)
+
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num==========")
+// var sum=0
+// var i=1
+// while(i<=num){
+//     sum=sum+i
+//     i=i+1
+// }
+// console.log("total of sum",sum)
+
+// do{
+//     sum=sum+i
+//     i=i+1
+// }
+// while(i<=num)
+// console.log("total of sum",sum)
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num===")
+// var i=0
+// while(i<=num){
+//     var num1 =readline.questionInt("enter the any num1======")
+//     if(num1>0){
+//         console.log(num1,"posstive")
+//     }
+//     else{
+//         console.log(num1,"neagtive")
+//     }
+//     i=i+1
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num=========")
+// var a=0;
+// var b=1;
+// console.log(a);
+// console.log(b);
+// for(var i=0; i<=num; i++){
+//     var temp =a+b
+//     console.log(temp)
+//     b=a
+//     a=temp
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num=======")
+// var fact=1
+// while(num>0){
+//     fact=fact*num
+//     num=num-1
+// }
+// console.log("fact",fact)
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num===========")
+// var num1 =readline.questionInt("enter the any num1=======")
+// while(num<=num1){
+//     var i=1
+//     while(i<=10){
+//         console.log(num*i)
+//         i=i+1
+//     }
+//     console.log(" ")
+//     num=num+1
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num=========")
+// var i=1
+// var sum=0
+// while(i<num){
+//     if(num%i==0){
+//         sum=sum+i
+        
+//     }
+//     i=i+1
+// }
+// if(sum==num){
+//     console.log(sum,"this is a perfect number")
+// }
+// else{
+//     console.log(sum,"this is a not perfect number")
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num=========")
+// var i=2
+// var count=0
+// while(i<=num){
+//     if(num%i==0){
+//         count=count+1
+//     }
+//     i=i+1
+// }
+// console.log("count============",count)
+// if(count==1){
+//     console.log("this is a prime number")
+// }
+// else{
+//     console.log("this is a not prime number")
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num==========")
+// var i=1
+// while(i<=num){
+//     if(i%3==0 && i%7==0){
+//         console.log(i,"navgurukul")
+//     }
+//     else if(i%7==0){
+//         console.log(i,"gurukul")
+//     }
+//     else if(i%3==0){
+//         console.log(i,"nav")
+//     }
+//     else{
+//         console.log(i)
+//     }
+//     i=i+1
+// }

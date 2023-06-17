@@ -1,16 +1,16 @@
-var readline =require('readline-sync')
-var num =readline.questionInt('enter num--:')
-var i=0
-do{
-    if(i%2==0){
-        console.log(i,'even')
-    }
-    else{
-        console.log(i,'odd')
-    }
-    i=i+1
-}
-while(i<=num)
+// var readline =require('readline-sync')
+// var num =readline.questionInt('enter num--:')
+// var i=0
+// do{
+//     if(i%2==0){
+//         console.log(i,'even')
+//     }
+//     else{
+//         console.log(i,'odd')
+//     }
+//     i=i+1
+// }
+// while(i<=num)
 
 // var readline =require('readline-sync')
 // var num1 =readline.questionInt('enter num1')
