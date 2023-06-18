@@ -59,154 +59,20 @@
 //     console.log(i)
 // }
 
-// var array = [
-//     { a: 1, b: 2, c: 3 },
-//     { name: "kailash", age: 20 },
-//     { class: 12, roll: 10 },
-//     { fatherName: "mahendra mahto", mothersName: "sumintra devi" }
-//   ];
-  
-//   var length = array.length;
-//   console.log(length);
-
-
-// var array = [
-//     { a: 1, b: 2, c: 3 },
-//     { name: "kailash", age: 20 },
-//     { class: 12, roll: 10 },
-//     { fatherName: "mahendra mahto", mothersName: "sumintra devi" }
-//   ];
-  
-//   var count = 0;
-  
-//   for (var i = 0; i < array.length; i++) {
-//     var obj = array[i];
-//     var keys = Object.keys(obj);
-//     count += keys.length;
-//   }
-  
-//   console.log(count);
 
 
 
-// var array = [
-//     { a: 1, b: 2, c: 3 },
-//     { name: "kailash", age: 20 },
-//     { class: 12, roll: 10 },
-//     { fatherName: "mahendra mahto", mothersName: "sumintra devi" }
-//   ];
   
-//   var count = 0;
-//   var i = 0;
-  
-//   while (i < array.length) {
-//     var obj = array[i];
-//     var keys = Object.keys(obj);
-//     count += keys.length;
-//     i=i+1
-//   }
-  
-//   console.log(count);
 
-// for(var i=0; i<array.length; i++){
-//     var obj =array[i];
-//     var keys =Object.keys(obj);
-//     count +=keys.length
-// }
-// console.log(count)
+  
+  
 
-// for(var i in array){
-//     var obj =array[i];
-//     var keys =Object.keys(obj);
-//     count +=keys.length
-// }
-// console.log(count)
+
+  
+  
 
 
 
-// var array = [
-//     { a: 1, b: 2, c: 3 },
-//     { name: "kailash", age: 20 },
-//     { class: 12, roll: 10 },
-//     { fatherName: "mahendra mahto", mothersName: "sumintra devi" }
-//   ];
-  
-//   var sum = 0;
-  
-//   for (var i = 0; i < array.length; i++) {
-//     var obj = array[i];
-//     var values = Object.values(obj);
-  
-    // for (var j = 0; j < values.length; j++) {
-    //   if (typeof values[j] === 'number') {
-    //     sum += values[j];
-    //   }
-    // }
-  
-  
-//   console.log(sum);
-  
-
-// var myDetails={
-//     "first name":"kumar",
-//     "last name": "vadthya",
-//     "middle name":"nayak"
-//  }
-  
-//  console.log(myDetails["first name"]);
-//  console.log(myDetails["last name"]);
-//  console.log(myDetails["middle name"]);
-  
-// console.log(myDetails)
-// for(var i in myDetails){
-//     console.log(i)
-// }
-  
-  
-// var myHome = {
-//     "name": "Mannat",
-//     "location":"Mumbai",
-//     "Colour":"black",
-//     "owner":"sharukh khan",
-//     "neighbours": ["everything!"]
-//   };
-//   myHome.name="my Villa";
-//   myHome.location="siliguri"
-//   console.log(myHome)
-// for(var i in myHome){
-//     console.log(i)
-// }
-  
-  
-// var myHome = {
-//     "name": "Mannat",
-//     "location":"Mumbai",
-//     "Colour":"black",
-//     "owner":"sharukh khan",
-//     "neighbours": ["everything!"]
-//   };
- 
- 
-//  myHome.isGood= true;
-//  myHome.isvery= "beatufull"
- 
-// //  console.log(myHome);
-
-// for(var i in myHome){
-//     console.log(myHome[i])
-// }
- 
-// var myHome = {
-//     name: "Mannat",
-//     location:"Mumbai",
-//     "Colour":"black",
-//     "owner":"sharukh khan",
-//     "neighbours": ["everything!"],
-//     "isGood":true
-//   };
-  
-//   delete myHome.isGood;
-//   console.log(myHome)
  
 
 // var myDetails={
@@ -230,43 +96,21 @@
 //     console.log(i)
 // }
 
-// var person={"name":"gouri","surname":"maity","age":37}
-// for (var key in person) {
-//     console.log(person[key]);
-//   }
- 
-// for (var i in person){
-// console.log(i);
-// }
-// var keys = Object.keys(person);
-// var length = keys.length;
 
-// console.log(length);
 
 // for (person_details in person){
 //     console.log(person_details+ "= "+person[person_details]);
 //     }
 
-// var name={name:"kailash",lastName:"singh",medileName:"kumar"}
-// console.log(name)
-// for(var i in name){
-//     console.log(i)
-// }
-// var keys =Object.keys(name);
-// var length =keys.length;
-// console.log(length);
 
 
-// const campus={"camp_name":"Bangalore_campus","establish":2016,"election":"three_months"}
-// for(let i in campus){
-//   console.log(campus[i])
-// console.log(i)
-// }
 
-const d1 = {'a': 100, 'b': 200, 'c': 300};
-const d2 = {'a': 300, 'b': 200, 'd': 400};
 
-const result = {};
+
+// const d1 = {'a': 100, 'b': 200, 'c': 300};
+// const d2 = {'a': 300, 'b': 200, 'd': 400};
+
+// const result = {};
 
 // Iterate over the keys of d1
 // for (let key in d1) {
@@ -338,54 +182,13 @@ const result = {};
 // }
 
 
-// var mydata = {
-//     'data1':100,
-//     'data2': -54,
-//     'data3': 247
-//    }
-// var sum=0
-
-// for(var i in mydata){
-//     sum=sum+mydata[i]
-// }
-// console.log("Total:",sum)
-
-// var myDict= {
-//     1: 'NAVGURUKUL',
-//     2: 'IN',
-//     3:{
-//     'A' : 'WELCOME',
-//     'B' : 'To',
-//     'C' : 'DHARAMSALA'
-//     }
-//     }
-//     for(var i in myDict){
-//         if ((typeof myDict[i]) === "object"){
-//             delete myDict[i]['A']
-//     }
-// }
-// console.log(myDict)
 
 
-// let list1=['one','two','three','four','five']
-// let list2=[1,2,3,4,5]
-// var number={}
-// for (var i in list1){
-//    number[list1[i]]=list2[i]
-// }
-// console.log(number);
 
 
-// var array = [{ "first": "1", "second": "2", "third": "1", "four": "5", "five": "5", "six": "9", "seven": "7" }]
-// var uniqueNumbers = [];
-// for (var i of array) {
-//   for (var j in i) {
-//       if (!uniqueNumbers.includes(i[j])){ 
-//         uniqueNumbers.push(i[j]);
-//       }
-//   }
-// }
-// console.log(uniqueNumbers);
+
+
+
 
 
 // var readline = require('readline-sync');
@@ -451,69 +254,3 @@ const result = {};
 
 
 
-// var my_dict = {
-//     'a': 50,
-//     'b': 58,
-//     'c': 56,
-//     'd': 40,
-//     'e': 100,
-//     'f': 20
-//   };
-  
-//   var number = Object.values(my_dict).filter(value=>value>50);
-//   console.log(number);
-
-
-// var student = {
-//     'fist name' : "David Rayy",
-//     'class' : "VI",
-//     'rollno' : 12 };
-
-    // student.class="IX"
-    // console.log(student)
-
-    // for(var i in student){
-    //     console.log(i)
-    // }
-    // for(var i in student){
-    //     console.log(student[i])
-    // }
-
-    // var vegetables={
-    //     veg1:"brinjal",veg2:"oninine",veg3:"patoto",veg4:"chili"
-    // }
-    // vegetables.veg3="ledishfinger"
-    // console.log(vegetables)
-    // console.log(vegetables.veg2)
-    // vegetables.veg5="botal ground"
-    // console.log(vegetables)
-    // delete vegetables.veg2; 
-    // console.log(vegetables)
-
-    var fruits={
-        fruit1:"mango",
-        fruit2:"apple",
-        fruit3:"banana",
-        fruit4:"grapesh"
-    }
-    // console.log(fruits)
-    // for(var i in fruits){
-    //     console.log(i)
-    // }
-    // for(var i in fruits){
-    //     console.log(fruits[i])
-    // }
-    // fruits.fruit4="coconut"
-    // console.log(fruits)
-
-    // delete fruits.fruit3;
-    // console.log(fruits)
-
-    // fruits.fruit5="lichi"
-    // console.log(fruits)
-    // var obj={a:1,b:2,c:3,d:4,e:6}
-    //first way 
-    // console.log(obj.a)
-    // //second way
-    // console.log(obj['a'])//iklklklkl;
-  
