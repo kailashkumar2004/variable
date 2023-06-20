@@ -13,3 +13,39 @@
 //     number[b[i]]=a[i]
 // }
 // console.log(number)
+
+// var number=[2,4,6,8,10]
+// var num=["num1","num2","num3","num4","num5"]
+// var object={}
+// for(var i in number){
+//     object[number[i]]=num[i]
+// }
+// console.log(object)
+
+// var addresh=["village","post","thana","block","distik","state","country"];
+// var detlis=["khosidangi","churli","galgaliya","thakurganj","kishanganj","bihar","indai"]
+// var introduction={};
+// for(var i in addresh){
+//     introduction[addresh[i]]=detlis[i]
+// }
+// console.log(introduction)
+
+
+// var value=[9,7,5,3,1];
+// var number=["a","b","c","d","e"];
+// var object={}
+// for(var i in value){
+//     object[number[i]]=value[i]
+// }
+// console.log(object)
+
+
+// var name=["kajal","kailash","komal","kundan","kiran"];
+// var names=["name1","name2","name3","name4","name5"];
+// var object={}
+// for(var i in name){
+//     object[names[i]]=name[i]
+// }
+// console.log(object)
+
+

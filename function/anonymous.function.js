@@ -718,3 +718,51 @@ const readline = require("readline")
 
 // }
 // num()
+
+// var number=function(){
+//     var arr1=[2,7,8,9,11,16,19,34,78,92];
+//     var arr2=[7,2,8,9,11,19,78,92,77,66,77];
+//     var emptyarray=[]
+//     for(var i of arr1){
+//         if(arr2.includes(i)){
+//             emptyarray.push(i)
+//         }
+//     }
+//     console.log(emptyarray)
+// }
+// number()
+
+// var number=function(){
+//     var readline=require("readline-sync")
+//     var num=readline.questionInt("enter the any num===")
+//     var i=2
+//     var count=0
+//     while(i<=num){
+//         if(num%i==0){
+//             count=count+1
+//         }
+//         i=i+1
+//     }
+//     console.log("count============",count)
+//     if(count==1){
+//         console.log("this is a prime number")
+//     }
+//     else{
+//         console.log("this is a not prime number")
+//     }
+//     var Numbers=function(){
+//         var array=[15,55,35,35,50,20,40,30,86,34,25,45];
+//         var num=70
+//         var emptyarray=[]
+//         for(var i of array){
+//             for(var j of array){
+//                 if(i+j==num){
+//                     emptyarray.push([i,j])
+//                 }
+//             }
+//         }
+//         console.log(emptyarray)
+//     }
+//     Numbers()
+// }
+// number()

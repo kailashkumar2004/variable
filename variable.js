@@ -677,3 +677,90 @@
 // else{
 //     console.log(num,"neagtive")
 // }
+
+// var day="monday"
+// if(day=="monday"){
+//     console.log("ege rice")
+// }
+// else{
+//     console.log("rice dal")
+// }
+
+// var num=21
+// if(num%2==0){
+//     console.log(num,"even")
+// }
+// else{
+//     console.log(num,"odd")
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num======")
+// if(num%2==0){
+//     console.log(num,"even")
+// }
+// else{
+//     console.log(num,"odd")
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num======")
+// if(num>0){
+//     console.log(num,"posstvive")
+// }
+// else{
+//     console.log(num,"neagtive")
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num=====")
+// var i=0
+// while(i<=num){
+//     var num1=readline.questionInt("enter the any num1==========")
+//     if(num1>0){
+//         console.log(num1,"poddtive")
+//     }
+//     else{
+//         console.log(num1,"neagtive")
+//     }
+//     i=i+1
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num========")
+// var i=1
+// while(i<=num){
+//     if(i%3==0 && i%7==0){
+//         console.log(i,"navgurukul")
+//     }
+//     else if(i%7==0){
+//         console.log(i,"gurukul")
+//     }
+//     else if(i%3==0){
+//         console.log(i,"nav")
+//     }
+//     else{
+//         console.log(i)
+//     }
+//     i=i+1
+// }
+
+// var readline =require("readline-sync")
+// var num =readline.questionInt("enter the any num=======")
+// var sum=0
+// var i=1
+// while(i<=num){
+//     var num1 =readline.questionInt("enter the any num1========")
+//     sum=sum+num1
+//     i=i+1
+// }
+// console.log("total of sum",sum)
+
+// var num=20
+// var i=1
+// var sum=0
+// while(i<=num){
+//     sum=sum+i
+//     i=i+1
+// }
+// console.log("total of sum",sum)

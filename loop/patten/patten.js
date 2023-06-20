@@ -948,27 +948,66 @@
 //     x=x+1
 // }
 
-var number=5
-var i=1
-while(i<=number){
-    var string ="";
-    var j=1
-    while(j<=i){
-        string +="*";
-        j=j+1
-    }
-    console.log(string)
-    i=i+1
-}
-var num=1
-var x=4
-while(x>=num){
-    var string ="";
-    var y=1
-    while(y<=x){
-        string +="*";
-        y=y+1
-    }
-    console.log(string)
-    x=x-1
-}
+// var number=5
+// var i=1
+// while(i<=number){
+//     var string ="";
+//     var j=1
+//     while(j<=i){
+//         string +="*";
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+// var num=1
+// var x=4
+// while(x>=num){
+//     var string ="";
+//     var y=1
+//     while(y<=x){
+//         string +="*";
+//         y=y+1
+//     }
+//     console.log(string)
+//     x=x-1
+// }
+
+// var number=10
+// var i=1
+// while(i<=number){
+//     var string ="";
+//     var j=1
+//     while(j<=number){
+//         string +="*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+
+// var num=8
+// var i=1
+// while(i<=num){
+//     var String ="";
+//     var j=1
+//     while(j<=i){
+//         String +="*"
+//         j=j+1
+//     }
+//     console.log(String)
+//     i=i+1
+// }
+
+// var num=1
+// var i=5
+// while(i>=num){
+//     var string ="";
+//     var j=1
+//     while(j<=i){
+//         string +="*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i-1
+// }

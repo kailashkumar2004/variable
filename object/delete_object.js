@@ -25,3 +25,11 @@
 // var number={a:1,b:5,c:7,d:11,e:19,f:17,g:18,h:91}
 // delete number.g;
 // console.log(number)
+
+// var number={a:6,b:9,c:11,d:19,e:29}
+// delete number.b
+// console.log(number)
+
+// var name={name1:"kailash",name2:"samir",name3:"sourav",name4:"smarti"}
+// delete name.name2
+// console.log(name)

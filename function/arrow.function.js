@@ -1000,3 +1000,31 @@
 //     console.log(output)
 // }
 // number()
+
+// var number=(num)=>{
+//     var array=[1,3,4,5,6,8,1,2,3,11,12,35,67,89,11,43,23];
+//     var uniqueNumbers=[]
+//     for(var i=0;i<array.length; i++){
+//         if(uniqueNumbers.indexOf(array[i])== -1){
+//             uniqueNumbers.push(array[i])
+//         }
+//     }
+//     console.log(uniqueNumbers)
+// }
+// number()
+
+// var array=(num)=>{
+//     var number=[81,82,83,85];
+//     var output=[]
+//     var i=0
+//     while(i<number.length){
+//         var j=1
+//         while(j<number.length){
+//             output.push(number.slice(i,j+1))
+//             j=j+1
+//         }
+//         i=i+1
+//     }
+//     console.log(output)
+// }
+// array()

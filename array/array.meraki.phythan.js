@@ -1374,15 +1374,229 @@ var sum=0
 // console.log(output)
 
 
-var a = [1, 2, 3, 4, 5, 6];
-var b = ['a', 'b', 'c', 'd', 'e', 'f'];
+// var a = [1, 2, 3, 4, 5, 6];
+// var b = ['a', 'b', 'c', 'd', 'e', 'f'];
 
-var result = {};
+// var result = {};
 
-for (var i = 0; i < a.length; i++) {
-  var key = a[i];
-  var value = b[i];
-  result[key] = value;
-}
+// for (var i = 0; i < a.length; i++) {
+//   var key = a[i];
+//   var value = b[i];
+//   result[key] = value;
+// }
 
-console.log(result);
+// console.log(result);
+
+// var array=[1,4,5,6,7,2,3,8,9,1,2,5,11,12,14,16,6];
+// var uniqueNumbers=[];
+// for(var i=0; i<array.length; i++){
+//   if(uniqueNumbers.indexOf(array[i])== -1){
+//     uniqueNumbers.push(array[i])
+//   }
+// }
+// console.log(uniqueNumbers)
+
+// var number=[2,7,8,5,4,3,2,3,5,6,7,8,9];
+// for(var i in number){
+//   console.log(i)
+//   console.log(number[i])
+// }
+
+// var number=[11,98,99,33,55,77,53];
+// var max=number[0]
+// var i=0
+// while(i<number.length){
+//   if(number[i]>max){
+//     max=number[i]
+//   }
+//   i=i+1
+// }
+// console.log(max)
+
+// var number=17
+// var i=1
+// var output={}
+// for(var i=1; i<=number; i++){
+//   output[i]=i*i
+// }
+// console.log(output)
+
+// var number=[91,92,93,95];
+// var output=[]
+// var i=0
+// while(i<number.length){
+//   var j=1
+//   while(j<number.length){
+//     output.push(number.slice(i,j+1))
+//     j=j+1
+//   }
+//   i=i+1
+// }
+// console.log(output)
+
+// var num1=[11,16,37,58,29,22,32,43,54,65];
+// var num2=[16,37,29,22,35,67,89,76,54,65];
+// var emptyarray=[]
+// for(var i of num1){
+//     if(num2.includes(i))
+//     emptyarray.push(i)
+//   }
+// console.log(emptyarray)
+
+// var array=[22,18,21,19,67,54,33,23,17,21,3,56,15,25];
+// var num=40
+// var emptyarray=[];
+// for(var i of array){
+//   for(var j of array){
+//     if(i+j==num){
+//       emptyarray.push([i,j])
+//     }
+//   }
+// }
+// console.log(emptyarray)
+
+// var name=["kailash","shobha","anjali","bina","puja","chandu"]
+// name.sort()
+// console.log(name)
+
+var number=[75,78,44,32,12,34,21,1,2,3,4,5,7,10,35];
+// number.sort((a,b)=>a-b)
+// console.log(number)
+var sum=0
+// var i=0
+// while(i<number.length){
+//   sum=sum+number[i]
+//   i=i+1
+// }
+// console.log("total of sum number",sum)
+
+// for(var i=0; i<number.length; i++){
+//   sum=sum+number[i]
+// }
+// console.log("total of sum number",sum)
+// for(var i in  number){
+//   sum=sum+number[i]
+// }
+// console.log("total of sum number",sum)
+// for(var i of number){
+//   sum=sum+i
+// }
+// console.log("total of sum",sum)
+
+var number=[1,-9,2,-8,3,4,-6,7,-11,6,7,46,-98,47,38,29]
+// var i=0
+// while(i<number.length){
+//   if(number[i]>0){
+//     console.log(number[i],"posstive")
+//   }
+//   else{
+//     console.log(number[i],"neagtive")
+//   }
+//   i=i+1
+// }
+// for(var i in number){
+//   if(number[i]>0){
+//     console.log(number[i],"posstive")
+//   }
+//   else{
+//     console.log(number[i],"neagtive")
+//   }
+// }
+
+// for(var i of number){
+//   if(i>0){
+//     console.log(i,"posstive")
+//   }
+//   else{
+//     console.log(i,"neagtive")
+//   }
+// }
+
+// var array=[
+//   [1,2,3,4,5],
+//   [5,6,7,8,9],
+//   [9,10,11,12,13]
+// ]
+// var sum=0
+// for(var i in array){
+//   for(var j in array[i]){
+//     sum=sum+array[i][j]
+//   }
+// }
+// console.log("total of sum",sum)
+
+// for(var i of array){
+//   for(var j of i){
+//     sum=sum+j
+//   }
+// }
+// console.log("total of sum",sum)
+
+// var number=[2,4,5,6,7,8,9,11,15];
+// console.log(number.length)
+
+// var array=["manvi","kailash","sonu","aarav","anikt"];
+// console.log(array.length)
+// var number=[2,4,5,6,7,8,9,11,17,19,36]
+// console.log(number[2],"kailash")
+// console.log(number)
+
+// var num =[4,6,7,9,11,14,46,78,90];
+// num.fill("kiwi")
+// console.log(num)
+// num.fill("kiwi",2,5)
+// console.log(num)
+// var name=["kailash","laxman","aarav","aaryan","royal"];
+// name.shift()
+// console.log(name)
+// name.unshift("manvi")
+// console.log(name)
+// name.push("manav")
+// console.log(name)
+// name.pop(2)
+// console.log(name)
+
+// var number=[2,4,5,6,8,9,11,19,37,58];
+// var position=number.indexOf(8)
+// console.log(position)
+// var num=[2,3,4,5,6,7];
+// var number=[10,20,30,40];
+// var name=["kailash","kumar","singh"]
+// const allArray=num.concat(number,name)
+// console.log(allArray)
+
+
+// var number=[2,4,5,6,7,8,11,18,39,20];
+// number.splice(number.indexOf[2],8)
+// console.log(number)
+
+// var finalarray=number.slice(8)
+// console.log(finalarray)
+
+// delete number[4]
+// console.log(number)
+
+// var arr1=[21,45,67,89,91,39,27,89,12];
+// var arr2=[32,21,45,89,39,27,12,89,12];
+// var emptyarray=[]
+// for(var i of arr1){
+//   if(arr2.includes(i)){
+//     emptyarray.push(i)
+//   }
+// }
+// console.log(emptyarray)
+
+// var array=[12,8,7,13,22,12,3,4,9,11,5,15,89];
+// var num=20
+// var emptyarray=[]
+// for(var i of array){
+//   for(var j of array){
+//     if(i+j==num){
+//       emptyarray.push([i,j])
+//     }
+//   }
+// }
+// console.log(emptyarray)
+
+// var num=[9,8,7,4,5,2,1,4,7];
+// console.log(num.length)

@@ -23,3 +23,11 @@
 
 // number.num6="79"
 // console.log(number)
+
+// var name={book:"mathmathics",book1:"engliosh",book2:"hindi"}
+// name.book3="science"
+// console.log(name)
+
+// var apps={app1:"fecbook",aap2:"instagram",aap3:"whatsaap"}
+// apps.app4="telegram"
+// console.log(apps)

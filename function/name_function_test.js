@@ -944,3 +944,63 @@
 //     number()
 // }
 // numbers()
+
+// function number(){
+//     var num1=90
+//     var num2=20
+//     console.log(num1+num2)
+// }
+// number()
+
+// function name(){
+//     var readline =require("readline-sync")
+//     var num=readline.questionInt("enter the any num========")
+//     var i=1
+//     while(i<=num){
+//         if(i%2==0){
+//             console.log(i,"even")
+//         }
+//         else{
+//             console.log(i,"odd")
+//         }
+//         i=i+1
+//     }
+// }
+// name()
+
+// function number(){
+//     var readline =require("readline-sync")
+//     var num =readline.questionInt("enter the any num============")
+//     var num1 =readline.questionInt("enter the any num2=========")
+//     while(num<=num1){
+//         var i=1
+//         while(i<=10){
+//             console.log(num*i)
+//             i=i+1
+//         }
+//         console.log(" ")
+//         num=num+1
+//     }
+//     function Number (){
+//         var readline =require("readline-sync")
+//         var num =readline.questionInt("enter the any num=============")
+//         var i=1
+//         var sum=0
+//         while(i<num){
+//             if(num%i==0){
+//                 sum=sum+i
+//             }
+//             i=i+1
+//         }
+//         if(sum==num){
+//             console.log(sum,"this is perfect number")
+//         }
+//         else{
+//             console.log(sum,"this is not perfect number")
+//         }
+//     }
+//     Number()
+// }
+// number()
+
+
