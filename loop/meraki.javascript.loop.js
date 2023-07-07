@@ -1554,22 +1554,22 @@ const readline = require("linebyline");
 // }
 
 
-// var readline =require("readline-sync")
-// var num=readline.questionInt("enter the any num=======")
-// var i=0
-// var sum=0
-// while(i<num){
-//     if(num%i==0){
-//         sum=sum+i
-//     }
-//     i=i+1
-// }
-// if(sum==num){
-//     console.log(sum,"this is a parfect number")
-// }
-// else{
-//     console.log(sum,"this is a not perfect number")
-// }
+var readline =require("readline-sync")
+var num=readline.questionInt("enter the any num=======")
+var i=0
+var sum=0
+while(i<num){
+    if(num%i==0){
+        sum=sum+i
+    }
+    i=i+1
+}
+if(sum==num){
+    console.log(sum,"this is a parfect number")
+}
+else{
+    console.log(sum,"this is a not perfect number")
+}
 
 
 

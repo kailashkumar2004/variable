@@ -1028,3 +1028,119 @@
 //     console.log(output)
 // }
 // array()
+
+// var number=(num)=>{
+//     var number=[12,28,76,56,43,20,20,15,25,24,16,42];
+//     var num=40
+//     var emptyarray=[]
+//     for(var i of number){
+//         for(var j of number){
+//             if(i+j==num){
+//                 emptyarray.push([i,j])
+//             }
+//         }
+       
+//     }
+//     console.log(emptyarray)
+// }
+// number()
+
+// var numbers=(num)=>{
+//     var number=[11,12,13,15];
+//     var output=[]
+//     var i=0
+//     while(i<number.length){
+//         var j=1
+//         while(j<number.length){
+//             output.push(number.slice(i,j+1))
+//             j=j+1
+//         }
+//         i=i+1
+//     }
+//     console.log(output)
+// }
+// numbers()
+
+// var num=(Number)=>{
+//     var num=16
+//      var output=[]
+//      for(var i=1; i<=num; i++){
+//         output[i]=i*i
+//      }
+//      return output
+// }
+// console.log(num())
+
+
+
+
+
+
+
+// var number=(num)=>{
+//     var readline =require("readline-sync")
+//     var num =readline.questionInt("enter the any num==================")
+//     var i=1
+//     while(i<=num){
+//         if(i%2==0){
+//             console.log(i,"even")
+//         }
+//         else{
+//             console.log(i,"odd")
+//         }
+//         i=i+1
+//     }
+// }
+// number()
+
+// var num=(Number)=>{
+//     var readline =require("readline-sync")
+//     var num =readline.questionInt("enter the any num=================")
+//     var i=1
+//     while(i<=num){
+//         if(i%2==0){
+//             console.log(i,"even")
+//         }
+//         else{
+//             console.log(i,"odd")
+//         }
+//         i=i+1
+//     }
+// }
+// num()
+
+
+
+
+
+
+// var firstNumber=(num)=>{
+//     var num1=90
+//     var num2=10
+//     console.log(num+num1+num2)
+// }
+// firstNumber(10)
+
+
+
+
+// var number =(num)=>{
+//     var readline=require("readline-sync")
+//     var num=readline.questionInt("enter the any num=======================")
+//     var i=2
+//     var count=0
+//     while(i<=num){
+//         if(num%i==0){
+//             count=count+1
+//         }
+//         i=i+1
+//     }
+//     console.log("count===============================",count)
+//     if(count==1){
+//         console.log(count,"this is a prime number")
+//     }
+//     else{
+//         console.log(count,"this is a not prime number")
+//     }
+// }
+// number()

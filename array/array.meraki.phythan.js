@@ -1600,3 +1600,187 @@ var number=[1,-9,2,-8,3,4,-6,7,-11,6,7,46,-98,47,38,29]
 
 // var num=[9,8,7,4,5,2,1,4,7];
 // console.log(num.length)
+
+// var array=[9,8,7,6,5,4,3,2,1,3,8,1,11,2,21,54,87,90];
+// var uniqueNumbers=[]
+// for(var i=0; i<array.length; i++){
+//     if(uniqueNumbers.indexOf(array[i])== -1){
+//         uniqueNumbers.push(array[i])
+//     }
+// }
+// console.log(uniqueNumbers)
+
+// var number=[99,78,65,45,32,12,10,54];
+// var max=number[0]
+// var i=0
+// while(i<number.length){
+//     if(number[i]>max){
+//         max=number[i]
+//     }
+//     i=i+1
+// }
+// console.log(max)
+
+// var number=[91,92,93,95];
+// var output=[]
+// var i=0
+// while(i<number.length){
+//     var j=1
+//     while(j<number.length){
+//         output.push(number.slice(i,j+1))
+//         j=j+1
+//     }
+//     i=i+1
+// }
+// console.log(output)
+
+// var number=25
+// var output={}
+// for(var i=1; i<=number; i++){
+//     output[i]=i*i
+// }
+// console.log(output)
+
+// var num1=[2,5,8,9,88,6,4,3,21];
+// var num2=[8,5,9,75,2,90,6,4,87];
+// var emptyarray=[]
+// for(var i of num1){
+//     if(num2.includes(i)){
+//         emptyarray.push(i)
+//     }
+// }
+// console.log(emptyarray)
+
+// var number=[20,40,60,48,90,25,35,30,30,15,45];
+// var num=60;
+// var emptyarray=[]
+// for(var i of number){
+//     for(var j of number){
+//         if(i+j==num){
+//             emptyarray.push([i,j])
+//         }
+//     }
+// }
+// console.log(emptyarray)
+
+// var name=["kailash","aanu","chandu","somiya","riya","bina","manvi"];
+// name.sort();
+// console.log(name)
+
+// var number=[93,26,48,59,70,12,14,6,8,9,1,2,3,5,4];
+// number.sort((a,b)=>a-b)
+// console.log(number)
+
+// var number=[7,8,9,5,3,2,6,1,89,53,80,32,15];
+// number.splice(number.indexOf[8],6)
+// console.log(number)
+
+
+// var name=["kailash","aanu","chandu","somiya","riya","bina","manvi"];
+// name.splice(name.indexOf("aanu",5))
+// console.log(name)
+
+// var name=["kailash","aanu","chandu","somiya","riya","bina","manvi"]
+// var finalarray=name.splice(5)
+// console.log(finalarray)
+
+// var number=[7,8,9,5,3,2,6,1,89,53,80,32,15];
+// var finalarray=number.slice(7)
+// console.log(finalarray)
+
+// var number=[7,8,9,5,3,2,6,1,89,53,80,32,15];
+// delete number[7]
+// console.log(number)
+
+// var name=["kailash","aanu","chandu","somiya","riya","bina","manvi"]
+// delete name[3]
+// console.log(name)
+
+var number=[2,-9,3,-7,5,-8,12,-89,98,-56,-71,-25];
+// for(var i in number){
+//     if(number[i]>0){
+//         console.log(number[i],"posstive")
+//     }
+//     else{
+//         console.log(number[i],"neagtive")
+//     }
+// }
+// for(var i of number){
+//     if(i>0){
+//         console.log(i,"posstive")
+//     }
+//     else{
+//         console.log(i,"neagtive")
+//     }
+// }
+
+// var i=0
+// while(i<number.length){
+//     if(number[i]>0){
+//         console.log(number[i],"posstive")
+//     }
+//     else{
+//         console.log(number[i],"neagtive")
+//     }
+//     i=i+1
+// }
+
+// for(var i=1; i<number.length; i++){
+//     if(number[i]>0){
+//         console.log(number[i],"posstive")
+//     }
+//     else{
+//         console.log(number[i],"neagtive")
+//     }
+// }
+
+var number=[
+    [9,8,7,6,5],
+    [1,2,3,4,5],
+    [10,20,30,40,50]
+]
+// var sum=0
+// for(var i in number){
+//     for(var j in number[i]){
+//         sum=sum+number[i][j]
+//     }
+// }
+// console.log(sum)
+
+// for(var i of number){
+//     for(var j of i){
+//         sum=sum+j
+//     }
+// }
+// console.log(sum)
+
+// var number=[2,3,4,5,6,7,8,9,11,21,32];
+// for(var i in number){
+//     console.log(i)
+//     console.log(number[i])
+// }
+
+// var num=[12,78,98,76,54,32,12,68];
+// console.log(num.length)
+
+var num=[20,90,58,79,30,20,19];
+var sum=0
+// for(var i in num){
+//     sum=sum+num[i]
+// }
+// console.log(sum)
+// for(var i of num){
+//     sum=sum+i
+// }
+// console.log(sum)
+// var i=0
+// while(i<num.length){
+//     sum=sum+num[i]
+//     i=i+1
+// }
+// console.log(sum)
+// for(var i=0; i<num.length; i++){
+//     sum=sum+num[i]
+// }
+// console.log(sum)
+
