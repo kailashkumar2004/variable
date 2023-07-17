@@ -65,7 +65,7 @@
 //     while (i<=num) {
 //       if (i%2==0) {
 //         console.log(i, "even");
-//       } 
+//       }
 //       else {
 //         console.log(i, "odd");
 //       }
@@ -81,7 +81,7 @@
 //     while (i<=num1) {
 //       if (i%2==0) {
 //         evensum = evensum + i;
-//       } 
+//       }
 //       else{
 //         oddsum = oddsum + i;
 //       }
@@ -431,3 +431,175 @@
 //     console.log(sum)
 // }
 // setTimeout(firstNumber,3000)
+
+
+
+
+
+// setTimeout(function(){
+//     var num1 = 90
+//     var num2 = 80
+//     console.log(num1+num2)
+// },3000)
+
+
+// setTimeout(function () {
+//     var readline = require("readline-sync")
+//     var num = readline.questionInt("enter the any num================")
+//     i = 2
+//     count = 0
+//     while (i <= num) {
+//         if (num % i == 0) {
+//             count = count + 1
+            
+//         }
+//         i=i+1
+//     }
+//     console.log("count==============", count)
+//     if (count == 1) {
+//         console.log(count,"this is a prime number")
+//     }
+//     else {
+//         console.log(count,"this is a not prime number")
+//     }
+// }, 7000)
+// function firstNumber() {
+//     var readline = require("readline-sync")
+//     var num = readline.questionInt("enter the any num============")
+//     i = 1
+//     sum = 0
+//     while (i < num) {
+//         if (num % i == 0) {
+//             sum=sum+i
+//         }
+//         i=i+1
+//     }
+//     if (sum == num) {
+//         console.log(sum,"sum is a perfect number")
+//     }
+//     else {
+//         console.log(sum,"sum is a not perfect number")
+//     }
+// }
+// setTimeout(firstNumber,7000)
+
+
+// setTimeout(function () {
+//     var readline = require("readline-sync")
+//     var num = readline.questionInt("enter the any num===============")
+//     var i = 1
+//     while (i <= num) {
+//         if (i % 2 == 0) {
+//             console.log(i,"even")
+//         }
+//         else {
+//             console.log(i,"odd")
+//         }
+//         i=i+1
+//     }
+// },4000)
+
+// setTimeout(function () {
+//     var readline = require("readline-sync")
+//     var num = readline.questionInt("enter the any num============")
+//     var i = 1
+//     var evensum = 0
+//     var oddsum=0
+//     while (i <= num) {
+//         if (i % 2 == 0) {
+//             evensum=evensum+i
+//         }
+//         else {
+//             oddsum=oddsum+i
+//         }
+//         i=i+1
+//     }
+//     console.log("total of evensum", evensum)
+//     console.log("total of evensum",evensum)
+// }, 8000)
+// function firstNumber() {
+//     var readline = require("readline-sync")
+//     var num = readline.questionInt("enter the any num==============")
+//     var i = 1
+//     var evencount = 0
+//     var oddcount = 0
+//     while (i <= num) {
+//         if (i % 2 == 0) {
+//             evencount=evencount+1
+//         }
+//         else {
+//             oddcount=oddcount+1
+//         }
+//         i=i+1
+//     }
+//     console.log("total of evencount", evencount)
+//     console.log("total of oddcount",oddcount)
+// }
+// setTimeout(firstNumber,8000)
+
+
+// setTimeout(function () {
+//     var array = [12, 36, 70, 90, 76, 100, 82, 36, 47];
+//     var max = array[0];
+//     var i = 1
+//     while (i < array.length) {
+//         if (array[i] > max) {
+//             max=array[i]
+//         }
+//         i=i+1
+//     }
+//     console.log(max)
+// },7000)
+
+// setTimeout(function () {
+//     var array = [20, 31, 45, 67, 89, 90, 52, 85, 41, 37, 1, 11]
+//     var min = array[0]
+//     var i = 0
+//     while (i < array.length) {
+//         if (array[i] < min) {
+//             min=array[i]
+//         }
+//         i=i+1
+//     }
+//     console.log(min)
+
+// },7000)
+
+// setTimeout(function () {
+//     var num1 = 98
+//     var num2 = 99
+//     if (num1 > num2) {
+//         console.log("condation is a ture")
+//     }
+//     else if (num1 == num2) {
+//         console.log("secound condation is false")
+//     }
+//     else if (num1 < num2) {
+//         console.log("ture")
+//     }
+//     else {
+//         console.log("false")
+//     }
+// },9000)
+
+// setTimeout(function () {
+//     var array = [12, 45, 78, 90, 100, 54, 32, 11, 39, 79, 50];
+//     var max = array[0];
+//     for (var i in array) {
+//         if (array[i] > max) {
+//             max=array[i]
+//         }
+//     }
+//     console.log(max)
+// }, 8000)
+// function firstNumber() {
+//     var array = [90, 87, 54, 62, 43, 32, 21, 11, 35, 1, 2];
+//     var min = array[0];
+//     for (var i of array) {
+//         if (i < min) {
+//             min=i
+//         }
+//     }
+//     console.log(min)
+// }
+// setTimeout(firstNumber,8000)

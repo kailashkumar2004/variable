@@ -31,13 +31,13 @@
 //     [10, 20, 30, 40, 50, 60],
 //     [2, 4, 6, 8, 10, 12, 14]
 //   ];
-  
+
 //   var sum = num.reduce(function(acc, current) {
 //     return acc.concat(current);
 //   }, []).reduce(function(acc, current) {
 //     return acc + current;
 //   });
-  
+
 //   console.log(sum);
 
 // var number = [
@@ -45,7 +45,7 @@
 //     {e: 11, f: 19, g: 21, h: 17},
 //     {s: 10, p: 12, q: 76, r: 14}
 //   ];
-  
+
 //   var sum = number.reduce(function(acc, current) {
 //     for (var key in current) {
 //       if (current.hasOwnProperty(key)) {
@@ -55,7 +55,7 @@
 //     }
 //     return acc;
 //   }, 0);
-  
+
 //   console.log(sum);
 
 
@@ -130,3 +130,57 @@
 //     console.log(a,b,c,d,e)
 // }
 // mynumber(...array)
+
+
+
+
+
+
+// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40]
+// var sum = array.reduce((acc, cureent) => {
+//     return acc+cureent
+// })
+// console.log(sum)
+
+
+
+// function firstNumber() {
+//     var num1 = 90
+//     var num2 = 80
+//     function lastNumber(num3) {
+//         num4 = 10
+//         return num1 + num2 + num3 + num4
+
+//     }
+//     return lastNumber
+// }
+// lastNumber = firstNumber()
+// console.log(lastNumber(20))
+
+
+// function firstNumber() {
+//     var num1 = 90
+//     var num2 = 80
+//     lastNumber(20)
+//     function lastNumber(num3) {
+//         var num4 = 10
+//         thirdnumber(20)
+//         function thirdnumber(num5) {
+//             var num6 = 10
+//             console.log(num1 + num2 + num3 + num4 + num5 + num6)
+//         }
+
+//     }
+// }
+// firstNumber()
+
+
+
+
+
+
+
+
+
+
+

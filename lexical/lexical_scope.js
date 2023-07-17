@@ -218,3 +218,37 @@
 //     }
 // }
 // firstNumber(10)
+
+
+
+
+
+
+
+
+
+
+
+// function firstNumber() {
+//     var num1 = 90
+//     var num2 = 10
+//     secoundNumber(20)
+//     function secoundNumber(num) {
+//         var num3 = 10
+//         lastNumber()
+//         function lastNumber() {
+//             var num4 = 40
+//             console.log(num1+num1+num+num3+num4)
+//         }
+//     }
+// }
+// firstNumber()
+
+
+
+
+
+
+
+
+

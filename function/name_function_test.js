@@ -146,3 +146,38 @@
 // }
 // firstNumber()
 
+// function name() {
+//     num1 = 90
+//     num3 = "80"
+//     console.log(num1+num3)
+// }
+// name()
+
+// function number() {
+//     var readline = require("readline-sync")
+//     var num = readline.questionInt("enter the any num=================")
+//     i = 1
+//     while (i <= num) {
+//         if (i % 2 == 0) {
+//             console.log(i,"even")
+//         }
+//         else {
+//             console.log(i,"odd")
+//         }
+//         i=i+1
+//     }
+//     function lastNumber() {
+//         var array = [1, 2, 3, 4, 6, 7, 9, 10, 19, 32, 45, 67, 89, 81, 23, 45, 63]
+//         var max = array[0]
+//         var i = 0
+//         while (i < array.length) {
+//             if (array[i] > max) {
+//                 max=array[i]
+//             }
+//             i=i+1
+//         }
+//         console.log("max",max)
+//     }
+//     lastNumber()
+// }
+// number()

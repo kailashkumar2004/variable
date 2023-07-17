@@ -121,7 +121,7 @@
 //     function names(name3){
 //         return name1+name2+name3
 //     }
-//     return names 
+//     return names
 
 // }
 // names=name("kamni");
@@ -322,3 +322,19 @@
 // }
 // lastNumber=firstNumber("koyal");
 // console.log(lastNumber())
+
+
+// function firstNumber(num1) {
+//     var num2 = 90
+//     var num3 = 100
+//     function lastNumber(num4) {
+//         var num5 = 100
+//         return num1 + num2 + num3 + num4 + num5
+        
+//     }
+//      return lastNumber
+    
+// }
+    
+// lastNumber = firstNumber(100)
+// console.log(lastNumber(60))

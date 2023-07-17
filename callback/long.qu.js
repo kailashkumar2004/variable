@@ -101,7 +101,7 @@
 //         fact=fact*num6
 //         num6=num6-1
 //     }
-//     console.log("fact",fact)  
+//     console.log("fact",fact)
 // }
 // function sevenNumber(number){
 //     var readline =require("readline-sync")
@@ -146,77 +146,3 @@
 // // fiveNumber(sixNumber);
 // // sevenNumber(eightNumber);
 
-// function first(){
-//     console.log("first function is executed")
-//     function secound(){
-//         console.log("this is my secound function eecuted")
-//         function third(){
-//             console.log("this is my third function eecuted")
-//             function fputh(){
-//                 console.log('this is my 4th function eecuted')
-//                 function five(){
-//                     console.log('this is my 5th function eecuted')
-//                 }
-//                 five()
-//             }
-//             fputh()
-//         }
-//         third()
-//     }
-//     secound()
-
-// }
-// first()
-
-// function firstNumber(){
-//     var array=[12,78,90,75,43,52,100,199,800];
-//     var max=array[0]
-//     var i=1
-//     while(i<array.length){
-//         if(array[i]>max){
-//             max=array[i]
-//         }
-//         i=i+1
-//     }
-// console.log(max)
-// }
-// function lastNumber(number){
-//     var array=[98,76,64,32,12,41,10,28,75];
-//     var sum=0
-//     var i=0
-//     while(i<array.length){
-//         sum=sum+array[i]
-//         i=i+1
-//     }
-//     console.log("total of sum",sum)
-//     number()
-// }
-// function secoundNumber(number){
-//     var array=[1,2,3,4,5,6,7,8,9,11,2,14,1,6,8,9,20,40,60,5,7];
-//     var uniqueNumber=[]
-//     for(var i=0; i<array.length; i++){
-//         if(uniqueNumber.indexOf(array[i])== -1){
-//             uniqueNumber.push(array[i])
-//         }
-        
-//     }
-//     console.log(uniqueNumber)
-//     number()
-// }
-// function thirdnumber(){
-//     var array=[13,14,15,17];
-//     var output=[]
-//     var i=0
-//     while(i<array.length){
-//         var j=1
-//         while(j<array.length){
-//             output.push(array.slice(i,j+1))
-//             j=j+1
-//         }
-//         i=i+1
-//     }
-//     console.log(output)
-// }
-
-// lastNumber(thirdnumber)
-// secoundNumber(firstNumber)

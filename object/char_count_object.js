@@ -89,3 +89,12 @@
 //     charCount[char]=(charCount[char] || 0)+1;
 // }
 // console.log(charCount)
+
+
+// var name = "kailashkumar"
+// var charcount = {}
+// for (var i = 0; i < name.length; i++){
+//     var char = name[i]
+//     charcount[char]=(charcount[char] || 0)+1
+// }
+// console.log(charcount)

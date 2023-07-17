@@ -144,3 +144,71 @@
 //     }
 // }
 // firstNumber()
+
+// var number = function (num) {
+//     var num1 = 90
+//     var num2 = 70
+//     console.log(num+num1+num2)
+// }
+// number(100)
+
+// var sum = function () {
+//     var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+//     var sum = 0
+//     var i = 0
+//     while (i < array.length) {
+//         sum = sum + array[i]
+//         i=i+1
+//     }
+//     console.log("total of sum",sum)
+// }
+// sum()
+
+// var max = function () {
+//     var array = [13, 29, 30, 40, 60, 80, 90, 100];
+//     var max = array[0]
+//     for (var i in array) {
+//         if (array[i] > max) {
+//             max=array[i]
+//         }
+//     }
+//     console.log(max, "max")
+//     var sum = function () {
+//         var sum = 0
+//         var array = [12, 34, 5, 6, 78, 90, 10, 21, 34, 80, 91]
+//         for (var i in array) {
+//             sum=sum+array[i]
+//         }
+//         console.log("total of sum",sum)
+//     }
+//     sum()
+
+// }
+// max()
+
+// var number = function () {
+//     var array = [1, 4, 7, 8, 9, 10, 20, 42, 65, 78, 96, 43, 1, 4, 20, 78, 10, 9, 8];
+//     var uniqueNumber = []
+//     for (var i = 0; i < array.length; i++){
+//         if (uniqueNumber.indexOf(array[i]) == -1) {
+//             uniqueNumber.push(array[i])
+//         }
+//     }
+//     console.log(uniqueNumber)
+
+//     var num = function () {
+//         var array = [12, 28, 20, 20, 15, 25, 89, 43, 54, 65, 19, 21, 23, 34, 67, 31, 40, 52]
+//         var num = 40
+//         var emptyarray = []
+//         for (var i of array) {
+//             for (var j of array) {
+//                 if (i + j == num) {
+//                     emptyarray.push([i,j])
+//                 }
+//             }
+//         }
+//         console.log(emptyarray)
+//     }
+//     num()
+// }
+// number()

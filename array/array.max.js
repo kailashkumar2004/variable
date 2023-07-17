@@ -1,30 +1,32 @@
-// const numbers = [10, 5, 8, 20, 15];
-// let maxNumber = numbers[0];
-// console.log("max-------",maxNumber)
 
-// for (let i = 1; i < numbers.length; i++) {
-//   if (numbers[i] > maxNumber) {
-//     maxNumber = numbers[i];
-//   }
+var array = [18, 90, 36, 78, 40, 50, 70, 100];
+var max = array[0];
+var i = 0
+while (i < array.length) {
+    if (array[i] > max) {
+        max=array[i]
+    }
+    i=i+1
+}
+console.log(max)
+for (var i in array) {
+    if (array[i] > max) {
+        max=array[i]
+    }
+}
+console.log(max)
 
-// }
+for (var i of array) {
+    if (i > max) {
+        max=i
+    }
+}
+console.log(max)
 
-// console.log("The maximum number is: " + maxNumber);
 
-
-// const arr = [4, 2, 9, 6, 1,8, 7, 5];
-
-// let max = arr[0];
-// let secondMax = max;
-
-// for (let i = 0; i < arr.length; i++) {
-//   if (arr[i] > max) {
-//     secondMax = max;
-//     max = arr[i];
-//   } else if (arr[i] > secondMax && arr[i] < max) {
-//     secondMax = arr[i];
-//   }
-// }
-
-// console.log (secondMax);
-
+for (var i = 0; i < array.length; i++){
+    if (array[i] > max) {
+        max=array[i]
+    }
+}
+console.log(max)

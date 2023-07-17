@@ -44,26 +44,26 @@
 // })
 
 
-// var new_number =new Promise((resolve, reject) => {
-//     var number=[24,68,98,100,24,48,68,78,12];
-//     var evennumber=[];
-//     for(var i=0; i<number.length; i++){
-//         if(number[i]%2==0){
-//             evennumber.push(number[i])
-//         }
-//         if(evennumber.length>0){
-//             resolve(evennumber)
-//         }
-//         else{
-//             reject("even number is not found")
-//         }
-//     }
-// })
-// new_number.then((even)=>{
-//     console.log("even================",even)
-// }).catch((error)=>{
-//     console.log("error====================",error)
-// })
+var new_number =new Promise((resolve, reject) => {
+    var number=[24,68,98,100,24,48,68,78,12];
+    var evennumber=[];
+    for(var i=0; i<number.length; i++){
+        if(number[i]%2==0){
+            evennumber.push(number[i])
+        }
+        if(evennumber.length>0){
+            resolve(evennumber)
+        }
+        else{
+            reject("even number is not found")
+        }
+    }
+})
+new_number.then((even)=>{
+    console.log("even================",even)
+}).catch((error)=>{
+    console.log("error====================",error)
+})
 
 // var number =new Promise((resolve, reject) => {
 //     var array=[90,78,82,24,38,46,52,10,86,20];
@@ -154,4 +154,56 @@
 //     console.log("even======================",even)
 // }).catch((error)=>{
 //     console.log("error=======================",error)
+// })
+
+
+
+
+
+
+
+
+// var new_number = new Promise((resolve, reject) => {
+//     var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 21, 23, 34, 54, 56, 76, 78, 99, 63, 45, 69];
+//     var evennumber = []
+//     for (var i = 0; i < array.length; i++){
+//         if (array[i] % 2 == 0) {
+//             evennumber.push(array[i])
+//         }
+//         if (evennumber.length > 0) {
+//             resolve(evennumber)
+//         }
+//         else {
+//             reject("this is a not even")
+//         }
+//     }
+// })
+// new_number.then((even) => {
+//     console.log("even=================",even)
+// }).catch((error) => {
+//     console.log("error=======================",error)
+// })
+
+
+// var new_number=new Promise((resolve, reject) => {
+//     var array = [1, 2, 5, 7, 8, 9, 4, 6, 12, 21, 34, 43, 56, 68, 78, 98, 10, 24];
+//     var evennumber = []
+//     var i = 1
+//     while (i < array.length) {
+//         if (array[i] % 2 == 0) {
+//             evennumber.push(array[i])
+//         }
+//         i=i+1
+//     }
+//     if (evennumber.length > 0) {
+//         resolve(evennumber)
+//     }
+//     else {
+//         reject("this is a not evennuber")
+//     }
+// })
+// new_number.then((even) => {
+//     console.log("even==================",even)
+// }).catch((err) => {
+//     console.log("err=================",err)
 // })

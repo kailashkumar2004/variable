@@ -1,6 +1,6 @@
 // var day = "tuesday".toLowerCase();
 
-const { questionInt } = require("readline-sync")
+// const { questionInt } = require("readline-sync")
 
 // if (day == "monday") {
 //   console.log("Dhanwantari\nSiddhi\Kritika\Salon\nMayuri\nGauri");
@@ -50,7 +50,7 @@ const { questionInt } = require("readline-sync")
 
 
 // var time = 11;
-// if (time >= 5 && time 
+// if (time >= 5 && time
 //   }
 //   else { m = <= 6) {
 //  console.log("sleep well");
@@ -79,7 +79,7 @@ const { questionInt } = require("readline-sync")
 // }
 
 
-// var num1 = 300 
+// var num1 = 300
 // let readlineSync = require("readline-sync");
 // var num2=readlineSync.question("enter a number----");
 // if(num1==num2){
@@ -89,7 +89,7 @@ const { questionInt } = require("readline-sync")
 //    console.log("not equal")
 // }
 
-// var number1 = 44 
+// var number1 = 44
 // let readlineSync = require("readline-sync");
 // var number2=readlineSync.questionInt("enter a number---");
 // if(number2>=number2){
@@ -160,7 +160,7 @@ const { questionInt } = require("readline-sync")
 // }
 // if(age>=21 && age<24){
 //    console.log("You can drive a car");
-// } 
+// }
 // if(age>=24 && age<28){
 //    console.log("You can marry");
 // }
@@ -383,9 +383,9 @@ const { questionInt } = require("readline-sync")
 // }
 
 // var name ="kailash"
-// var a =name.length
+// // var a =name.length
 // console.log(name.length)
-// console.log(name)
+// // console.log(name)
 
 // var village ="khosidangi"
 // var x =village.length
@@ -535,12 +535,12 @@ const { questionInt } = require("readline-sync")
 
 // }
 
-// var number = 300 
+// var number = 300
 // var number1 = 123
 // var varx =number-number1
 // if(number==varx){
 //     console.log("equal")
-// }  
+// }
 // else{
 //     console.log("not equal")
 // }
@@ -595,14 +595,14 @@ const { questionInt } = require("readline-sync")
 //     console.log(varx,"is not divisible by 2")
 // }
 
-// varx =questionInt ("enter number1===== ") 
-// vary = questionInt("enter number2==== ") 
-// if(varx % vary == 0){ 
+// varx =questionInt ("enter number1===== ")
+// vary = questionInt("enter number2==== ")
+// if(varx % vary == 0){
 // console.log("Divisible")
-// } 
+// }
 // else{
 // console.log("Not Divisible")
-// } 
+// }
 
 // var x=12
 // var y=3
@@ -822,3 +822,69 @@ const { questionInt } = require("readline-sync")
 // }
 
 
+
+// var num = 11
+// var num2 = 19
+// if (num > num2) {
+//     console.log("first condatin is a right")
+// }
+// else if (num == num2) {
+//     console.log("secound condation is a  right")
+// }
+// else if (num < num2) {
+//     console.log("third condation is a right")
+// }
+// else {
+//     console.log("false")
+// }
+
+// var readline = require("readline-sync")
+// var num1 = readline.questionInt("enter the any num1=============")
+// var num2 = readline.questionInt("enter the any num2==============")
+// var num3 = readline.questionInt("enter the any num3===========")
+// if (num1 == num2 && num2 == num3) {
+//     console.log("first condation is a ture")
+// }
+// else if (num1 > num2 && num2 < num3) {
+//     console.log("secound condation is a ture")
+// }
+// else if (num1 < num1 && num2 < num3) {
+//     console.log("third condation is a ture")
+// }
+// else if (num1 > num2 && num2 > num3) {
+//     console.log("fourth condation is a ture")
+// }
+// else {
+//     console.log("false")
+// }
+
+
+// var readline = require("readline-sync")
+// var math = readline.questionInt("enter the any num1============")
+// var hindi = readline.questionInt("enter the any num2============")
+// var science = readline.questionInt("enter the any num3=========")
+// var english = readline.questionInt("enter the any num4===========")
+// var bilogy = readline.questionInt("enter the any num5============")
+// total = math + hindi + science + english + bilogy
+// parsenteg = total / 5
+// if (parsenteg >= 90 && parsenteg >= 80) {
+//     console.log(" a grate")
+// }
+// else if (parsenteg < 80 && parsenteg >= 70) {
+//     console.log("b grate")
+// }
+// else if (parsenteg < 70 && parsenteg >= 60) {
+//     console.log("c grate")
+// }
+// else if (parsenteg < 60 && parsenteg >= 50) {
+//     console.log(" d grate")
+// }
+// else if (parsenteg < 50 && parsenteg >= 40) {
+//     console.log("e grate")
+// }
+// else {
+//     console.log("f grate")
+// }
+
+// var a = "kailash"
+// console.log(a.length)

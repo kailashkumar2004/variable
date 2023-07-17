@@ -254,3 +254,51 @@
 // var array=[2,4,6,8,10,12,14,16,18,20]
 // var newarray =array.map(i=>i*2+1)
 // console.log(newarray)
+
+
+
+
+
+
+
+
+
+
+
+
+// var array = [1, 2, 3, 4, 5, 6, 8, 9, 10]
+// var newarray = array.map(i => i % 2 == 0)
+// var oddnewarray=array.map(i=>i%2!=0)
+// console.log(newarray)
+// console.log(oddnewarray)
+
+// var array = [1, -2, 3, -4, 5, -6, 7, -8, 9, -10]
+// var posstivenumber = array.map(i => i > 0)
+// var neagtivenumber = array.map(i => i < 0)
+// console.log(posstivenumber)
+// console.log(neagtivenumber)
+
+// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// var newarray = array.map(function (index, value, acc) {
+//     console.log(index)
+    
+// })
+
+// var Array = [1, 3, 5, 7, 9, 12]
+// var newarray = Array.map(i => i * 2 + 3)
+// console.log(newarray)
+
+
+
+
+
+
+
+
+
+
+
+
+
+var array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+array.forEach(i=>1%2==0)

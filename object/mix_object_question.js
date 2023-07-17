@@ -1,177 +1,174 @@
-// adding===========================================================
-// var num={a:6,b:1,c:11,d:19,e:51,f:17}
-// num.k=99
+// add==========================================
+// var name = { "name1": "kailash", "name2": "komal", "name3": "sourav" }
+// name.name4 = "manvi";
+// console.log(name)
+
+// var number = { "a": "2", "b": "3", "c": "4", "d": "5" }
+// number.e = "8";
+// console.log(number)
+
+// var num = { "num1": "90", "num2": "78", "num3": "45" }
+// num.num4 = "19";
 // console.log(num)
 
-// var name={name1:"kailash",name2:"sonam",name3:"komal"}
-// name.name4="payal"
+// change===========================================================
+// var name = { "name1": "kailash", "name2": "komal", "name3": "sourav" }
+// name.name2 = "aarti";
 // console.log(name)
 
-// change=========================================================
-// var number={a:9,b:8,c:7,d:6,e:5,f:3}
-// number.d=18
+// var number = { "a": "2", "b": "3", "c": "4", "d": "5" }
+// number.c = "11";
 // console.log(number)
 
-// var name={name1:"kailash",name2:"sonam",name3:"komal"}
-// name.name1="sourav";
+// delete==================================================================
+// var name = { "name1": "kailash", "name2": "komal", "name3": "sourav" }
+// delete name.name2;
 // console.log(name)
 
-// delete=====================================================
-// var number={a:9,b:8,c:7,d:6,e:5,f:12};
-// delete number.d
-// console.log(number)
+// var num = { "num1": "90", "num2": "78", "num3": "45" }
+// delete num.num3;
+// console.log(num)
 
-// var name={name1:"payal",name2:"aaryan",name3:"sonam"}
-// delete name.name3
-// console.log(name)
-
-// count======================================
-// var number={a:9,b:8,c:7,d:6,e:5,f:4}
-// var count=Object.keys(number).length
+// count=================================================================
+// var number = { "a": "1", "b": "2", "c": "3", "d": "4", "e": "5", "f": "7" }
+// var count = Object.keys(number).length
 // console.log(count)
 
-// var name={name1:"payal",name2:"aaryan",name3:"sonam"}
-// var count =Object.keys(name).length
+// var name = { "name1": "kailash", "name2": "komal", "name3": "sourav" }
+// var count = Object.keys(name).length;
 // console.log(count)
 
-// length==============================================
-// var number={num1:"77",num2:"90",num3:"12",num4:"10",num5:"70"}
-// var length=Object.keys(number).length
+// length=============================================================
+// var number = { "a": "1", "b": "2", "c": "3", "d": "4", "e": "5", "f": "7" }
+// var length = Object.keys(number).length;
 // console.log(length)
 
-// var name={name1:"komal",name2:"sonam",name3:"aaryan",name4:"nili"}
-// var length=Object.keys(name).length
-// console.log(length)
-
-
-// index===================================
-// var MyDetlis={
-//            name:"kailash",
-//            class:"12",
-//            roll:"10",
-//            college:"tkg"
+// sum==============================================
+// var number = { "a": 6, "b": 5, "c": 10, "d": 51, "e": 15, "f": 20 }
+// var sum = 0
+// for (var i in number) {
+//     sum=sum+number[i]
 // }
-// console.log(MyDetlis)
-// for(var i in MyDetlis){
-//     console.log(i)
-//     console.log(MyDetlis[i])
-// }
+// console.log("total of sum",sum)
 
-// sum========================================
-// var object={a:10,b:19,c:20,d:30,t:60}
-// var sum=0
-// for(var i in object){
-//     sum=sum+object[i]
-// }
-// console.log(sum)
 
-// even_and_odd=========================================
-// var number={a:9,b:8,c:7,d:6,e:5,f:4,g:3,h:2,i:1,k:11,l:18,m:186}
-// for(var i in number){
-//     if(number[i]%2==0){
+// var number = { "a": 6, "b": 5, "c": 10, "d": 51, "e": 15, "f": 20 }
+// for (var i in number) {
+//     if (number[i] % 2 == 0) {
 //         console.log(number[i],"even")
 //     }
-//     else{
+//     else {
 //         console.log(number[i],"odd")
 //     }
 // }
 
-// posstive_and_neagtive===========================
-// var object={a:-9,b:8,c:-1,d:19,e:-5,f:3,h:15,j:12,k:-31,x:-16};
-// for(var i in object){
-//     if(object[i]>0){
-//         console.log(object[i],"posstive")
+// posstive_and_neagtive============================================
+// var number = { "a": -9, "b": 7, "d": 11, "e": -89, "f": 99, "g": -11 }
+// for (var i in number) {
+//     if (number[i] > 0) {
+//         console.log(number[i],"posstive")
 //     }
-//     else{
-//         console.log(object[i],"neagtive")
-//     }
-// }
-
-// uniqueNumber===========================================================
-// var names={name1:"komal",name2:"sonam",name3:"payal",name4:"sourav",name1:"savita",name2:"sangita"}
-// console.log(names)
-
-// var Numbers={a:8,b:6,c:5,d:10,e:11,h:90,j:81,k:31,m:15,a:9,b:7,c:73}
-// console.log(Numbers)
-
-
-// max=================================================
-// var number={a:40,b:30,c:67,d:35,e:12,f:71}
-// var max=number[0]
-// for(var i in number){
-//     if(max=number[i]){
-//         number[i]=max
+//     else {
+//         console.log(number[i],"neagtive")
 //     }
 // }
-// console.log("max================",max)
 
-// char_count=================================================
-
-// var name="kailashkomal";
-// var char_count={}
-// for(var i in name){
-//     var char=name[i]
-//     char_count[char]=(char_count[char] || 0)+1
-// }
-// console.log(char_count)
-
-// for(var i=0; i<name.length; i++){
-//     var char=name[i]
-//     char_count[char]=(char_count[char] || 0)+1
-// }
-// console.log(char_count)
-
-// duble_array_of_object================================================
-// var names=["kailash","sourav","sima","puja","rabina","chandani","laxmi","nutan","sona","indu"];
-// var keys=["name1","name2","name3","name4","name5","name6","name7","name8","name9","name10"]
-// var object={}
-// for(var i in names ){
-//     object[keys[i]]=names[i]
-// }
-// console.log(object)
-
-
-// class=======================================================
+// class===================================================
 // class number{
-//     constructor(){
-//         this.num1="99",
-//         this.num2="90",
-//         this.num3="56",
-//         this.num4="20",
-//         this.num5="10"
+//     constructor() {
+//         this.num1 = 97,
+//             this.num2 = 67,
+//             this.num3 = 78,
+//             this.num4 = 63,
+//             this.num5 = 11,
+//             this.num6=11
 //     }
 // }
-// var new_number =new number()
-// console.log(new_number)
+// var new_num = new number();
+// console.log(new_num)
 
-// first_way============================
-// var object={a:9,b:8,c:7,d:6,e:5,f:3,h:11}
-// console.log(object.b)
+// char_count==============================================
+// var name = "kailashkumarsingh"
+// var charcount = {}
+// for (var i in name) {
+//     var char = name[i]
+//     charcount[char]=(charcount[char] || 0)+1
+// }
+// console.log(charcount)
 
-// var names={name1:"komal",name2:"sonam",name3:"payal",name4:"sourav"}
-// console.log(names.name4)
+// var app = "fecbookinstagramwhatsaap";
+// var charcount = {}
+// for (var i = 0; i < app.length; i++){
+//     var char = app[i]
+//     charcount[char]=(charcount[char] || 0)+1
+// }
+// console.log(charcount)
 
-// secound_way=================================
-// var object={a:9,b:8,c:7,d:6,e:5,f:3,h:11}
-// console.log(object["c"])
+// duble_array_of_object=================================
+// var number = [19, 23, 56, 89, 76, 43, 52, 17, 90, 29, 64];
+// var keys = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j","k"]
+// var num = {}
+// for (var i in number) {
+//     num[keys[i]]=number[i]
+// }
+// console.log(num)
 
-// var names={name1:"komal",name2:"sonam",name3:"payal",name4:"sourav"}
-// console.log(names["name3"])
+// uniquNumber=====================================================
+// var numbers = { "a": 9, "b": 11, "c": 89, "d": 50, "e": 60, "c": 45, "b": 11 }
+// console.log(numbers)
 
-// distraching==========================================
-// var array=[9,8,7,6,5,4,3,2,1]
-// var[a,b,c,d,r]=array
-// console.log(a,b,c,d,r)
+// first_way=================================
+// var number = { "a": 6, "b": 5, "c": 10, "d": 51, "e": 15, "f": 20 }
+// console.log(number.e)
 
-// var names=["komal","kailash","kishan","mona","sona"]
-// var[a,b,n,i]=names
-// console.log(a,b,n,i)
+// secound_way================================================
+// var number = { "a": 6, "b": 5, "c": 10, "d": 51, "e": 15, "f": 20 }
+// console.log(number["d"])
+
+// distraching====================================================
+// var array = [2, 4, 6, 89, 75, 32, 19, 37, 40, 58];
+// var [a,b,o,p,s]=array
+// console.log(a,b,o,p,s)
+
+// var object = { "a": 6, "b": 5, "c": 10, "d": 51, "e": 15, "f": 20 }
+// var { a, c, e, f } = object
+// console.log(a,c,e,f)
+
+// max==============================================
+// var number={"a": 6, "b": 5, "c": 10, "d": 51, "e": 15, "f": 20}
+// var max = number[0]
+// for (var i in number) {
+//     max = number[i]
+//     number[i]=max
+// }
+// console.log(max)
+
+// min=====================================================
+// var number = { "a": 6, "b": 4, "c": 19, "d": 5, "e": 15, "f": 100 }
+// var min = number[0]
+// for (var i in number) {
+//     if (number[i] < min) {
+//         min=number[i]
+//     }
+// }
+// console.log(min)
 
 
-// var object={a:9,b:8,c:7,d:6,e:5,f:3,h:11}
-// var{a,c,d,f}=object
-// console.log(a,c,d,f)
+ // Output: 4
 
-// var names={name1:"komal",name2:"sonam",name3:"payal",name4:"sourav"}
-// var{name1,name3,name4}=names
-// console.log(name1,name3,name4)
+
+// var name = "kailashkumar"
+// var charcount = {}
+// for (var i = 0; i < name.length; i++){
+//     var char = name[i]
+//     charcount[char]=(charcount[char] || 0)+1
+// }
+// console.log(charcount)
+
+var number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var keys = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"];
+var obj = {}
+for (var i in number) {
+    obj[keys[i]]=number[i]
+}
+console.log(obj)

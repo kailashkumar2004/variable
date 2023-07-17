@@ -155,3 +155,34 @@
 // var array=[1,2,3,4,5,6,7,8,9,10];
 // var min=Math.min(...array)
 // console.log(min)
+
+
+
+
+
+
+
+
+
+
+
+// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// evennumber = array.filter(i => i % 2 == 0)
+// oddnumber = array.filter(i => i % 2 !== 0)
+// console.log(evennumber)
+// console.log(oddnumber)
+
+// var array = [12, 23, 45, 68, 90, 76, 54, 32, 10, 20, 30, 40, 50]
+// EventCounts = array.filter(i => i % 2 == 0)
+// oddcounts = array.filter(i => i % 2 != 0)
+// EventCounts = EventCounts.length
+// oddcounts = oddcounts.length
+// console.log("total of EventCounts",EventCounts)
+// console.log("total of oddcounts",oddcounts)
+
+
+// var array = [1, -2, 3, -4, 5, -6, 7, -8, 9, -10, 12, 89, -85, -43]
+// posstivenumber = array.filter(num => num > 0)
+// neagtivenumber = array.filter(num => num < 0)
+// console.log("posstivenumber=============", posstivenumber)
+// console.log("neagtivenumber===========",neagtivenumber)

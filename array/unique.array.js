@@ -1,7 +1,5 @@
 // var array=[2,3,3,2,4,1,1,5,6,5,4]
-// // var i=0
 // var b=[]
-// // var len=array.length
 // for(var i=0; i<array.length; i++){
 //     if(b.indexOf(array[i])== -1){
 //         b.push(array[i]);
@@ -10,30 +8,29 @@
 // console.log(b)
 
 
-// var array = [4, 7, 1, 1, 7, 8, 9, 5, 6, 11, 13, 15, 17, 19];
-// var uniqueNumbers = [];
-// var i = 0;
+var array = [4, 7, 1, 1, 7, 8, 9, 5, 6, 11, 13, 15, 17, 19];
+var uniqueNumbers = [];
+var i = 0;
+while (i < array.length) {
+    var j = i + 1;
+    var isDuplicate = false;
 
-// while (i < array.length) {
-//     var j = i + 1;
-//     var isDuplicate = false;
+    while (j < array.length) {
+        if (array[i] === array[j]) {
+            console.log(array[i])
+            console.log(array[j])
+            isDuplicate = true;
+            break;
+        }
+        j++;
+    }
 
-//     while (j < array.length) {
-//         if (array[i] === array[j]) {
-//             console.log(array[i])
-//             console.log(array[j])
-//             isDuplicate = true;
-//             break;
-//         }
-//         j++;
-//     }
+    if (!isDuplicate) {
+        uniqueNumbers.push(array[i]);
+    }
 
-//     if (!isDuplicate) {
-//         uniqueNumbers.push(array[i]);
-//     }
-
-//     i++;
-// }
+    i++;
+}
 
 // console.log(uniqueNumbers);
 
@@ -47,24 +44,6 @@
 //     }
 // }
 // console.log(dublecateNumbers)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

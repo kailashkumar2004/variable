@@ -1,4 +1,4 @@
-// let n = 5; 
+// let n = 5;
 // let string = "";
 // var i=1
 // while(i<=n){
@@ -6,7 +6,7 @@
 //     while(j<=n){
 //         string += "*";
 
-//       j=j+1 
+//       j=j+1
 
 //     }
 
@@ -30,12 +30,12 @@
 // console.log(string)
 
 
-// let n = 5; 
+// let n = 5;
 // let string = "";
 // var i=0
 
-// for(let i = 0; i < n; i++) { 
-//   for(let j = 0; j < n; j++) { 
+// for(let i = 0; i < n; i++) {
+//   for(let j = 0; j < n; j++) {
 //     if(i === 0 || i === n - 1) {
 //       string += "*";
 //     }
@@ -53,7 +53,7 @@
 // console.log(string);
 
 
-// var n = 5; 
+// var n = 5;
 // var string = "";
 // var i = 0;
 
@@ -63,11 +63,11 @@
 //   while (j < n) {
 //     if (i === 0 || i === n - 1) {
 //       string += "*";
-//     } 
+//     }
 //     else {
 //       if (j === 0 || j === n - 1) {
 //         string += "*";
-//       } 
+//       }
 //       else {
 //         string += " ";
 //       }
@@ -83,11 +83,11 @@
 // console.log(string);
 
 
-// let n = 5; 
+// let n = 5;
 // let string = "";
 
-// for(let i = 0; i < n; i++) { 
-//   for(let j = 0; j < n; j++) { 
+// for(let i = 0; i < n; i++) {
+//   for(let j = 0; j < n; j++) {
 //     if(i === 0 || i === n - 1) {
 //       string += "*";
 //     }
@@ -464,12 +464,12 @@
 // var string = "";
 // let i = 1;
 // while(i <= number){
-//     // var string = "";  
+//     // var string = "";
 //   let j = 0;
 //   while (j < i) {
 //     if (i == number) {
 //       string += "*";
-//     } 
+//     }
 //     else {
 //       if (j == 0 || j == i - 1) {
 //         string += "*";
@@ -1279,4 +1279,231 @@
 //     }
 //     console.log(string)
 //     i=i-1
+// }
+
+// var i = 1
+// var num = 10
+// while (i <= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+
+// var i = 10
+// var num = 1
+// while (i >= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i-1
+// }
+
+// var num = 10
+// var i = 1
+// while (i <= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= num) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+
+// var i = 10
+// var num = 1
+// while (i >= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i-1
+// }
+// var i = 2
+// var num = 10
+// while (i <= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+
+// var num = 1;
+// var string = '';
+// while (num <= 9) {
+//   string=string+num;
+//   console.log(string);
+//   num=num+1
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var num = 9
+// var i = 1
+// while (i <= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+
+// var num = 1
+// var i = 9
+// while (i >= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i-1
+// }
+
+// var num = 10
+// var i = 1
+// while (i <= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= num) {
+//         string += "*";
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+
+// var num = 1
+// var i = 9
+// while (i >= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i-1
+// }
+// var num = 9
+// var i = 2
+// while (i <= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+
+// var num = 9
+// var i = 1
+// while (i <= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
+// }
+// var i = 8
+// var num = 1
+// while (i >= num) {
+//     var j = 1
+//     var string = "";
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i-1
+// }
+
+// var i = 1;
+// var string = "";
+// while (i <= 9) {
+//     string = string + i
+//     console.log(string)
+//     i=i+1
+// }
+
+// var i = 1
+// var string = "";
+// while (i <= 10) {
+//     string = string + i
+//     console.log(string)
+//     i=i+1
+// }
+
+// var readline = require("readline-sync")
+// var num = readline.questionInt("enter the any num===============")
+// var i = 1
+// var string = "";
+// while (i <= num) {
+//     string = string + i;
+//     console.log(string)
+//     i=i+1
+// }
+
+
+// var num = 10
+// var i = 1
+// var string = "";
+// while (i <= num) {
+//     string = string + i;
+//     console.log(string);
+//     i=i+1
+// }
+
+
+
+// var i = 1
+// var num = 10
+// while (i <= num) {
+//     var string = "";
+//     var j = 1
+//     while (j <= i) {
+//         string += "*"
+//         j=j+1
+//     }
+//     console.log(string)
+//     i=i+1
 // }

@@ -471,7 +471,7 @@
 //     if(num1<num2){
 //         if(num2<num3){
 //             console.log("num2,greater hai num1 ka")
-//         }   
+//         }
 //     }
 //     else if(num1>num2){
 //         if(num2>num3){
@@ -1144,3 +1144,59 @@
 //     }
 // }
 // number()
+
+
+
+
+
+
+
+
+
+
+
+// var number = (num) => {
+//     var readline = require("readline-sync")
+//     var num = readline.questionInt("enter the any num==================")
+//     var i = 2
+//     var count = 0
+//     while (i <= num) {
+//         if (num % i == 0) {
+//             count=count+1
+//         }
+//         i=i+1
+//     }
+//     console.log("count======================", count)
+//     if (count == 1) {
+//         console.log(count,"this is a prime number")
+//     }
+//     else {
+//         console.log(count,"this is a not prime number")
+//     }
+//     var num = (number) => {
+//         var readline = require("readline-sync")
+//         var num1 = readline.questionInt("enter the any num1====================")
+//         var i = 1
+//         var sum = 0
+//         while (i < num1) {
+//             if (num1 % i == 0) {
+//                 sum=sum+i
+//             }
+//             i=i+1
+//         }
+//         if (sum == num1) {
+//             console.log(sum,"sum is a perfect number")
+//         }
+//         else {
+//             console.log(sum,"sum is a not perfect number")
+//         }
+//     }
+//     num()
+// }
+// number()
+
+// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// var sum = array.reduce((acc, cureent) => {
+//     return acc+cureent
+// })
+// console.log(sum)
